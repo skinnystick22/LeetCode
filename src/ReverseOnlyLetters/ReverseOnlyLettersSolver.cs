@@ -1,4 +1,4 @@
-﻿using System.Text;
+﻿using System;
 
 namespace ReverseOnlyLetters;
 
@@ -6,17 +6,28 @@ public static class ReverseOnlyLettersSolver
 {
     public static string ReverseOnlyLetters(string s)
     {
-        StringBuilder sb = new();
-        for (var i = s.Length - 1; i >= 0; i--)
+        var arr = s.ToCharArray();
+        int left = 0, right = s.Length - 1;
+
+        while (left < right)
         {
-            while (sb.Length < s.Length && !char.IsLetter(s[sb.Length]))
-                sb.Append(s[sb.Length]);
-            if (char.IsLetter(s[i]))
-                sb.Append(s[i]);
-            while (sb.Length < s.Length && !char.IsLetter(s[sb.Length]))
-                sb.Append(s[sb.Length]);
+            if (!char.IsLetter(arr[left]))
+            {
+                left++;
+            }
+            else if (!char.IsLetter(arr[right]))
+            {
+                right--;
+            }
+            else
+            {
+                // Swap the letters
+                (arr[left], arr[right]) = (arr[right], arr[left]);
+                left++;
+                right--;
+            }
         }
 
-        return sb.ToString();
+        return new string(arr);
     }
 }
