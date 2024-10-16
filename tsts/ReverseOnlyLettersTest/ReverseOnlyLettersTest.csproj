@@ -21,7 +21,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\KRadiusSubArrayAverages\KRadiusSubArrayAverages\KRadiusSubArrayAverages.csproj" />
+      <ProjectReference Include="..\..\src\ReverseOnlyLetters\ReverseOnlyLetters.csproj" />
     </ItemGroup>
 
 </Project>
