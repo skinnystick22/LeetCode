@@ -52,6 +52,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriticalConnectionInANetwor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriticalConnectionsInANetwork", "src\CriticalConnectionsInANetwork\CriticalConnectionsInANetwork.csproj", "{373AE542-8BFB-4DC1-929C-F21E915C7B7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedArrayTest", "tsts\RemoveDuplicatesFromSortedArrayTest\RemoveDuplicatesFromSortedArrayTest.csproj", "{A7E7DB6B-3B63-4B99-8D56-9E2976ADAC30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedArray", "src\RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.csproj", "{F844BAEE-4976-4E49-9837-CCD323A31A31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -150,6 +154,14 @@ Global
 		{373AE542-8BFB-4DC1-929C-F21E915C7B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{373AE542-8BFB-4DC1-929C-F21E915C7B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{373AE542-8BFB-4DC1-929C-F21E915C7B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E7DB6B-3B63-4B99-8D56-9E2976ADAC30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E7DB6B-3B63-4B99-8D56-9E2976ADAC30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E7DB6B-3B63-4B99-8D56-9E2976ADAC30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E7DB6B-3B63-4B99-8D56-9E2976ADAC30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F844BAEE-4976-4E49-9837-CCD323A31A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F844BAEE-4976-4E49-9837-CCD323A31A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F844BAEE-4976-4E49-9837-CCD323A31A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F844BAEE-4976-4E49-9837-CCD323A31A31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C970D1ED-E5AB-45F1-8DAD-A4866E93FA40} = {F671F4C8-4B13-4170-8C66-611962CE7CCD}
@@ -176,5 +188,7 @@ Global
 		{90BF7622-E3F7-4031-BE72-999593108E05} = {F671F4C8-4B13-4170-8C66-611962CE7CCD}
 		{CDE5C292-0EA5-456B-ABFD-EB5874CA6204} = {8881A7C4-39FD-4700-BD74-6B78369E0262}
 		{373AE542-8BFB-4DC1-929C-F21E915C7B7B} = {F671F4C8-4B13-4170-8C66-611962CE7CCD}
+		{A7E7DB6B-3B63-4B99-8D56-9E2976ADAC30} = {8881A7C4-39FD-4700-BD74-6B78369E0262}
+		{F844BAEE-4976-4E49-9837-CCD323A31A31} = {F671F4C8-4B13-4170-8C66-611962CE7CCD}
 	EndGlobalSection
 EndGlobal
